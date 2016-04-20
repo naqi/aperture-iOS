@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6107A25FBD91FE0B77643FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6107A15457CAFF2FFB1EFE31 /* Assets.xcassets */; };
+		6107A2F9F0035D54F09EA33B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107AA50BBA913B6F0333085 /* main.m */; };
+		6107A6005F760B82A511C5EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6107AF4336B297F463011722 /* MainMenu.xib */; };
+		6107A73F57C798DFB3FE0B0E /* ApertureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107ADBD3B64237A6D5ACA74 /* ApertureUITests.m */; };
+		6107A76DD10160BC2E941139 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6107A8EC7ADFCF44BCC76A67 /* Info.plist */; };
+		6107A8286184D35AA2FA4EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107A037E37EBDF889BB2531 /* AppDelegate.m */; };
+		6107A8B73F3F3FF471A18052 /* ApertureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107A4BFB5DE3E7835126020 /* ApertureTests.m */; };
+		6107A9F94F084412A39B291F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6107A52DD18D7550964FF140 /* Info.plist */; };
+		6107AE51096260F1CD388DE8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6107AAD5071BBC890B91E401 /* Info.plist */; };
+		BEB027B21CBDEF9700F7B31A /* ColorGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB027B11CBDEF9700F7B31A /* ColorGradientView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6107AB6931D3F2ADF13C8965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6107A250B8327253C69FE5BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6107AFD4BD1AC4A71B2EDFA5;
+			remoteInfo = Aperture;
+		};
+		6107AD8AA79058AAE4076ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6107A250B8327253C69FE5BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6107AFD4BD1AC4A71B2EDFA5;
+			remoteInfo = Aperture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6107A037E37EBDF889BB2531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6107A15457CAFF2FFB1EFE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6107A23219A4467DDA7E1CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6107A4BFB5DE3E7835126020 /* ApertureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApertureTests.m; sourceTree = "<group>"; };
+		6107A52DD18D7550964FF140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6107A8EC7ADFCF44BCC76A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6107A9C7CF2EEBF911BDD7F7 /* Aperture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aperture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6107AA50BBA913B6F0333085 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6107AAD5071BBC890B91E401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6107ACD52DEAF339392F36D5 /* ApertureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApertureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6107AD98B7C94AF522F1E782 /* ApertureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApertureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6107ADBD3B64237A6D5ACA74 /* ApertureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApertureUITests.m; sourceTree = "<group>"; };
+		6107ADCDBA3ECDB72AD63F3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEB027B01CBDEF9700F7B31A /* ColorGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGradientView.h; sourceTree = "<group>"; };
+		BEB027B11CBDEF9700F7B31A /* ColorGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGradientView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6107A2A2C0301C94ABBC839F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6107A3D9950CBED570F29F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6107A56D4473B57B108CE1D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6107A11A851AD6066E603DB9 /* ApertureTests */ = {
+			isa = PBXGroup;
+			children = (
+				6107A8EC7ADFCF44BCC76A67 /* Info.plist */,
+				6107A4BFB5DE3E7835126020 /* ApertureTests.m */,
+			);
+			path = ApertureTests;
+			sourceTree = "<group>";
+		};
+		6107A300CDB644698193C115 /* ApertureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6107A52DD18D7550964FF140 /* Info.plist */,
+				6107ADBD3B64237A6D5ACA74 /* ApertureUITests.m */,
+			);
+			path = ApertureUITests;
+			sourceTree = "<group>";
+		};
+		6107A5BAA7E10ED3C3CC9DD3 = {
+			isa = PBXGroup;
+			children = (
+				6107AA98D03EC8D212981D7C /* Products */,
+				6107AD0A24980BE0B342F480 /* Aperture */,
+				6107A11A851AD6066E603DB9 /* ApertureTests */,
+				6107A300CDB644698193C115 /* ApertureUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		6107A7ABC89A73CE5043B63E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6107AA50BBA913B6F0333085 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6107AA98D03EC8D212981D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6107A9C7CF2EEBF911BDD7F7 /* Aperture.app */,
+				6107ACD52DEAF339392F36D5 /* ApertureTests.xctest */,
+				6107AD98B7C94AF522F1E782 /* ApertureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6107AD0A24980BE0B342F480 /* Aperture */ = {
+			isa = PBXGroup;
+			children = (
+				6107AAD5071BBC890B91E401 /* Info.plist */,
+				6107A15457CAFF2FFB1EFE31 /* Assets.xcassets */,
+				6107ADCDBA3ECDB72AD63F3F /* AppDelegate.h */,
+				6107A037E37EBDF889BB2531 /* AppDelegate.m */,
+				6107A7ABC89A73CE5043B63E /* Supporting Files */,
+				6107AF4336B297F463011722 /* MainMenu.xib */,
+				BEB027B01CBDEF9700F7B31A /* ColorGradientView.h */,
+				BEB027B11CBDEF9700F7B31A /* ColorGradientView.m */,
+			);
+			path = Aperture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6107AC3D74C9D637AD3D798F /* ApertureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6107A51D771BC363859359AC /* Build configuration list for PBXNativeTarget "ApertureUITests" */;
+			buildPhases = (
+				6107AB352DCF9E01D4EC452C /* Sources */,
+				6107A56D4473B57B108CE1D6 /* Frameworks */,
+				6107A415B34338035210EF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6107A5E8D279FD5C31333FF5 /* PBXTargetDependency */,
+			);
+			name = ApertureUITests;
+			productName = ApertureUITests;
+			productReference = 6107AD98B7C94AF522F1E782 /* ApertureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6107ACAF0F40CD13DDFFAA10 /* ApertureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6107A56B1E3B3D4CFB1095C9 /* Build configuration list for PBXNativeTarget "ApertureTests" */;
+			buildPhases = (
+				6107AF71AED9F8F7A7D918D2 /* Sources */,
+				6107A2A2C0301C94ABBC839F /* Frameworks */,
+				6107AC2B25643B312DDC219D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6107A8E5FF6AE0483769D896 /* PBXTargetDependency */,
+			);
+			name = ApertureTests;
+			productName = ApertureTests;
+			productReference = 6107ACD52DEAF339392F36D5 /* ApertureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6107AFD4BD1AC4A71B2EDFA5 /* Aperture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6107AC1512B02B58855F3A5C /* Build configuration list for PBXNativeTarget "Aperture" */;
+			buildPhases = (
+				6107A9692F1B384F63CB5F72 /* Sources */,
+				6107A3D9950CBED570F29F4D /* Frameworks */,
+				6107A77916AA4634897E3076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aperture;
+			productName = Aperture;
+			productReference = 6107A9C7CF2EEBF911BDD7F7 /* Aperture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6107A250B8327253C69FE5BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Mobineer;
+			};
+			buildConfigurationList = 6107ADB24BCB1D9C28A6CD91 /* Build configuration list for PBXProject "Aperture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6107A5BAA7E10ED3C3CC9DD3;
+			productRefGroup = 6107AA98D03EC8D212981D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6107AFD4BD1AC4A71B2EDFA5 /* Aperture */,
+				6107ACAF0F40CD13DDFFAA10 /* ApertureTests */,
+				6107AC3D74C9D637AD3D798F /* ApertureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6107A415B34338035210EF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6107A9F94F084412A39B291F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6107A77916AA4634897E3076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6107AE51096260F1CD388DE8 /* Info.plist in Resources */,
+				6107A25FBD91FE0B77643FCB /* Assets.xcassets in Resources */,
+				6107A6005F760B82A511C5EB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6107AC2B25643B312DDC219D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6107A76DD10160BC2E941139 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6107A9692F1B384F63CB5F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6107A8286184D35AA2FA4EB7 /* AppDelegate.m in Sources */,
+				BEB027B21CBDEF9700F7B31A /* ColorGradientView.m in Sources */,
+				6107A2F9F0035D54F09EA33B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6107AB352DCF9E01D4EC452C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6107A73F57C798DFB3FE0B0E /* ApertureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6107AF71AED9F8F7A7D918D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6107A8B73F3F3FF471A18052 /* ApertureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6107A5E8D279FD5C31333FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6107AFD4BD1AC4A71B2EDFA5 /* Aperture */;
+			targetProxy = 6107AD8AA79058AAE4076ECB /* PBXContainerItemProxy */;
+		};
+		6107A8E5FF6AE0483769D896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6107AFD4BD1AC4A71B2EDFA5 /* Aperture */;
+			targetProxy = 6107AB6931D3F2ADF13C8965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6107AF4336B297F463011722 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6107A23219A4467DDA7E1CBC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6107A26436176F01816ED31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aperture.app/Contents/MacOS/Aperture";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApertureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobineer.aperture.ApertureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6107A29D356D81C228E38091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Aperture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobineer.aperture.Aperture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6107A2B211A018123057A171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aperture.app/Contents/MacOS/Aperture";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApertureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobineer.aperture.ApertureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		6107A2FEF42F726752D507C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aperture.app/Contents/MacOS/Aperture";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApertureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobineer.aperture.ApertureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		6107A96503AFA5CA37119624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6107AA4E750DE95CE7792056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aperture.app/Contents/MacOS/Aperture";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApertureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobineer.aperture.ApertureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6107AC2A86251896067E764E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Aperture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobineer.aperture.Aperture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6107AD7EF4041ADB67FE695E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6107A51D771BC363859359AC /* Build configuration list for PBXNativeTarget "ApertureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6107A26436176F01816ED31B /* Debug */,
+				6107A2FEF42F726752D507C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6107A56B1E3B3D4CFB1095C9 /* Build configuration list for PBXNativeTarget "ApertureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6107AA4E750DE95CE7792056 /* Debug */,
+				6107A2B211A018123057A171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6107AC1512B02B58855F3A5C /* Build configuration list for PBXNativeTarget "Aperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6107A29D356D81C228E38091 /* Debug */,
+				6107AC2A86251896067E764E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6107ADB24BCB1D9C28A6CD91 /* Build configuration list for PBXProject "Aperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6107A96503AFA5CA37119624 /* Debug */,
+				6107AD7EF4041ADB67FE695E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6107A250B8327253C69FE5BA /* Project object */;
+}
